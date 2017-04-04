@@ -70,7 +70,7 @@ s! {
         #[cfg(target_arch = "sparc64")]
         __reserved0: ::c_int,
         pub sa_flags: ::c_int,
-        _restorer: *mut ::c_void,
+        pub _restorer: *mut ::c_void,
     }
 
     pub struct stack_t {
